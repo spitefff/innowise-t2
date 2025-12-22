@@ -1,6 +1,6 @@
-02:41:18.378 [main] INFO  application.com.putkov.st.Main - Characters count: 599
-12:50:34.776 [main] INFO  reader.com.putkov.st.TextReaderImpl - Input file 'data/text.txt' data read
-12:50:34.787 [main] INFO  application.com.putkov.st.Main - Restored text:
+02:59:39.520 [main] INFO  com.putkov.st.application.Main - Characters count: 599
+03:00:28.996 [main] INFO  com.putkov.st.reader.TextReaderImpl - Input file 'data/text.txt' data read
+03:00:29.002 [main] INFO  com.putkov.st.application.Main - Restored text:
 It has survived not only five centuries , but also the leap into electronic
     typesetting , remaining essentially unchanged . It was popularised in the with the
     release of Letraset sheets containing Lorem Ipsum passages , and more recently with

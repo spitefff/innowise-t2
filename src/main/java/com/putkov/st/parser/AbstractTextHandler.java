@@ -1,6 +1,6 @@
-package com.putkov.parser;
+package com.putkov.st.parser;
 
-import com.putkov.composite.TextComposite;
+import com.putkov.st.composite.TextComposite;
 
 public abstract class AbstractTextHandler {
     protected AbstractTextHandler nextHandler;

@@ -1,4 +1,4 @@
-02:37:35.489 [main] INFO  com.putkov.application.Main - Restored text:
+02:37:35.489 [main] INFO  application.com.putkov.st.Main - Restored text:
 
     typesetting , remaining essentially unchanged .
     
@@ -10,9 +10,9 @@
     
     layout .
     Bye .
-02:37:35.496 [main] INFO  com.putkov.application.Main - Characters count: 205
-02:41:18.370 [main] INFO  com.putkov.reader.TextReaderImpl - Input file 'data/text.txt' data read
-02:41:18.376 [main] INFO  com.putkov.application.Main - Restored text:
+02:37:35.496 [main] INFO  application.com.putkov.st.Main - Characters count: 205
+02:41:18.370 [main] INFO  reader.com.putkov.st.TextReaderImpl - Input file 'data/text.txt' data read
+02:41:18.376 [main] INFO  application.com.putkov.st.Main - Restored text:
 It has survived not only five centuries , but also the leap into electronic
     typesetting , remaining essentially unchanged . It was popularised in the with the
     release of Letraset sheets containing Lorem Ipsum passages , and more recently with

@@ -1,4 +1,4 @@
-package com.putkov.composite;
+package com.putkov.st.composite;
 
 public enum TextType {
     TEXT,

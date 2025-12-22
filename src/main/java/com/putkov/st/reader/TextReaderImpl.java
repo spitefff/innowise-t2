@@ -1,4 +1,4 @@
-package com.putkov.reader;
+package com.putkov.st.reader;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;

@@ -1,11 +1,11 @@
-02:33:06.652 [main] ERROR com.putkov.application.Main - Reading error: Input file read error!
-02:35:35.001 [main] INFO  com.putkov.reader.TextReaderImpl - Input file 'text.txt' data read
-02:35:35.003 [main] ERROR com.putkov.reader.TextReaderImpl - Input file 'text.txt' read error
-02:35:35.003 [main] ERROR com.putkov.application.Main - Reading error: Input file read error!
-02:36:45.884 [main] ERROR com.putkov.reader.TextReaderImpl - File 'text.txt' not found in resources
-02:36:45.885 [main] ERROR com.putkov.reader.TextReaderImpl - Input file 'text.txt' read error
-02:36:45.885 [main] ERROR com.putkov.application.Main - Reading error: Input file read error!
-02:37:17.145 [main] ERROR com.putkov.reader.TextReaderImpl - File 'text.txt' not found in resources
-02:37:17.148 [main] ERROR com.putkov.reader.TextReaderImpl - Input file 'text.txt' read error
-02:37:17.148 [main] ERROR com.putkov.application.Main - Reading error: Input file read error!
-02:37:35.461 [main] INFO  com.putkov.reader.TextReaderImpl - Input file 'data/text.txt' data read
+02:33:06.652 [main] ERROR application.com.putkov.st.Main - Reading error: Input file read error!
+02:35:35.001 [main] INFO  reader.com.putkov.st.TextReaderImpl - Input file 'text.txt' data read
+02:35:35.003 [main] ERROR reader.com.putkov.st.TextReaderImpl - Input file 'text.txt' read error
+02:35:35.003 [main] ERROR application.com.putkov.st.Main - Reading error: Input file read error!
+02:36:45.884 [main] ERROR reader.com.putkov.st.TextReaderImpl - File 'text.txt' not found in resources
+02:36:45.885 [main] ERROR reader.com.putkov.st.TextReaderImpl - Input file 'text.txt' read error
+02:36:45.885 [main] ERROR application.com.putkov.st.Main - Reading error: Input file read error!
+02:37:17.145 [main] ERROR reader.com.putkov.st.TextReaderImpl - File 'text.txt' not found in resources
+02:37:17.148 [main] ERROR reader.com.putkov.st.TextReaderImpl - Input file 'text.txt' read error
+02:37:17.148 [main] ERROR application.com.putkov.st.Main - Reading error: Input file read error!
+02:37:35.461 [main] INFO  reader.com.putkov.st.TextReaderImpl - Input file 'data/text.txt' data read

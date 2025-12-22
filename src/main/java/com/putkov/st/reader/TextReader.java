@@ -1,4 +1,4 @@
-package com.putkov.reader;
+package com.putkov.st.reader;
 
 import java.io.IOException;
 

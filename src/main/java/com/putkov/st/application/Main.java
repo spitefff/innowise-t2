@@ -1,14 +1,14 @@
-package com.putkov.application;
+package com.putkov.st.application;
 
-import com.putkov.composite.TextComposite;
-import com.putkov.composite.TextType;
-import com.putkov.parser.TextHandler;
-import com.putkov.parser.ParagraphHandler;
-import com.putkov.parser.SentenceHandler;
-import com.putkov.parser.LexemeHandler;
-import com.putkov.parser.WordHandler;
-import com.putkov.reader.TextReader;
-import com.putkov.reader.TextReaderImpl;
+import com.putkov.st.composite.TextComposite;
+import com.putkov.st.parser.TextHandler;
+import com.putkov.st.parser.ParagraphHandler;
+import com.putkov.st.parser.SentenceHandler;
+import com.putkov.st.parser.LexemeHandler;
+import com.putkov.st.parser.WordHandler;
+import com.putkov.st.reader.TextReader;
+import com.putkov.st.reader.TextReaderImpl;
+import com.putkov.st.service.TextServiceImpl;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -26,7 +26,6 @@ public class Main {
             LOGGER.error("Reading error: {}", e.getMessage());
             return;
         }
-
 
         TextHandler textHandler = new TextHandler();
         ParagraphHandler paragraphHandler = new ParagraphHandler();
@@ -46,5 +45,17 @@ public class Main {
         // выводим результат
         LOGGER.info("Restored text:\n{}", textComposite.getText());
         LOGGER.info("Characters count: {}", textComposite.count());
+
+        TextServiceImpl service = new TextServiceImpl();
+
+        int max = service.findMaxSentencesWithSameWords(textComposite);
+        LOGGER.info("Max sentences with same words: {}", max);
+
+        LOGGER.info("Sentences sorted by lexeme count:");
+        for (TextComposite s : service.sortSentencesByLexemeCount(textComposite)) {
+            LOGGER.info(s.getText());
+        }
+        service.swapFirstAndLastLexeme(textComposite);
+        LOGGER.info("Text after swapping first and last lexeme:\n{}", textComposite.getText());
     }
 }

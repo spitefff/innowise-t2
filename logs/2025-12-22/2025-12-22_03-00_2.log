@@ -1,0 +1,13 @@
+03:00:29.003 [main] INFO  com.putkov.st.application.Main - Characters count: 599
+03:00:29.010 [main] INFO  com.putkov.st.application.Main - Max sentences with same words: 6
+03:00:29.011 [main] INFO  com.putkov.st.application.Main - Sentences sorted by lexeme count:
+03:00:29.013 [main] INFO  com.putkov.st.application.Main - 
+03:00:29.013 [main] INFO  com.putkov.st.application.Main - 
+03:00:29.013 [main] INFO  com.putkov.st.application.Main - layout .
+03:00:29.013 [main] INFO  com.putkov.st.application.Main - 
+03:00:29.014 [main] INFO  com.putkov.st.application.Main - Bye .
+03:00:29.014 [main] INFO  com.putkov.st.application.Main - typesetting , remaining essentially unchanged .
+03:00:29.014 [main] INFO  com.putkov.st.application.Main - It was popularised in the with the
+03:00:29.014 [main] INFO  com.putkov.st.application.Main - here ' , making it look like readable по английски .
+03:00:29.014 [main] INFO  com.putkov.st.application.Main - content of a page when looking at its layout .
+03:00:29.014 [main] INFO  com.putkov.st.application.Main - The point of using Ipsum is that it has a

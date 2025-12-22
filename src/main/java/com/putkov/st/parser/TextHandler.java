@@ -1,7 +1,7 @@
-package com.putkov.parser;
+package com.putkov.st.parser;
 
-import com.putkov.composite.TextComposite;
-import com.putkov.composite.TextType;
+import com.putkov.st.composite.TextComposite;
+import com.putkov.st.composite.TextType;
 
 public class TextHandler extends AbstractTextHandler {
 
