@@ -33,16 +33,13 @@ public class Main {
         LexemeHandler lexemeHandler = new LexemeHandler();
         WordHandler wordHandler = new WordHandler();
 
-        // связываем цепочку
         textHandler.setNextHandler(paragraphHandler);
         paragraphHandler.setNextHandler(sentenceHandler);
         sentenceHandler.setNextHandler(lexemeHandler);
         lexemeHandler.setNextHandler(wordHandler);
 
-        // запускаем обработку
         TextComposite textComposite = textHandler.handle(text);
 
-        // выводим результат
         LOGGER.info("Restored text:\n{}", textComposite.getText());
         LOGGER.info("Characters count: {}", textComposite.count());
 
